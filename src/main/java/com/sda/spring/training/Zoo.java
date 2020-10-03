@@ -53,6 +53,9 @@ public class Zoo implements CommandLineRunner {
         penguin.sound();
 
         reptiles.forEach(Reptile::sound);
+
+        log.info("************");
+        log.info(zooDetails.toString());
     }
 
 }
